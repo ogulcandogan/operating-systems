@@ -1,0 +1,30 @@
+
+Project2.rar includes:
+- src
+- Makefile
+- description (this)
+- input.txt 
+
+src folder includes:
+- Makefile
+- description.txt
+- main.cpp (runs scheduler simulation)
+- CPUScheduler.cpp (handles all functions in simulation)
+- Process.h (header file for processes)
+- Burst.h (header file for bursts)
+- CPUQueue.h (header file for simulator)
+
+To build the code: unzip and cd into 'Project2' and type:
+'make'
+
+To run the code, type:
+./simulator [flags] < input.txt
+
+
+
+Flags:
+-d stands for detailed information
+-v stands for verbose mode
+-a RR the execution of RR algorithm 
+-a FCFS  the execution of FCFS algorithm 
+-a RR 100 the execution of RR with time quantum is 100  
